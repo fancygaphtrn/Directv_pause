@@ -1,0 +1,16 @@
+{
+  "name": "DirecTV Pause",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Pause DirecTV DVR",
+  "background": {
+    "page": "directv.html"
+  },  
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "pause.png"
+  },
+  "permissions": [
+    "http://*/*"
+  ]
+}
